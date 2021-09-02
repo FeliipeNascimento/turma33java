@@ -18,7 +18,10 @@ programa
 		enquanto (numero>=0){
 			escreva( "Digite um numero: ")
 			leia(numero)
-
+			
+		se (numero<0){
+			pare
+		}
 			somatorio = somatorio + numero
 			contador = contador++
 	
@@ -37,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 527; 
+ * @POSICAO-CURSOR = 526; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
